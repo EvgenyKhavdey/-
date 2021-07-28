@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="400.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AuthorizationController">
+   <children>
+      <Label layoutX="130.0" layoutY="22.0" text="Авторизация">
+         <font>
+            <Font name="MS Reference Sans Serif" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login_field" layoutX="75.0" layoutY="69.0" prefHeight="25.0" prefWidth="250.0" promptText="Логин" style="-fx-border-color: silver; -fx-border-radius: 5;" />
+      <PasswordField fx:id="password_field" layoutX="75.0" layoutY="104.0" prefHeight="27.0" prefWidth="250.0" promptText="Пароль" style="-fx-border-radius: 5; -fx-border-color: silver;" />
+      <Button fx:id="authorizationButton" layoutX="150.0" layoutY="165.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="ВОЙТИ" textFill="#f8f6f6" />
+   </children>
+</AnchorPane>
