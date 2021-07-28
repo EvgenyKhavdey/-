@@ -1,0 +1,12 @@
+package model;
+
+public enum CommandType {
+    AUTHORIZATION,
+    AUTHORIZATION_PASSED,
+    AUTHORIZATION_NO,
+    FILE_DELETE,
+    FILE_MESSAGE,
+    FILE_REQUEST,
+    LIST_REQUEST,
+    LIST_RESPONSE
+}
